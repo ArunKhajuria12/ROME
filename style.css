@@ -1,0 +1,83 @@
+body{
+	background-color: rgb(211,211,211,0.8);
+}
+section{
+	background-color: white;
+	margin: 150px 24px 150px 24px;
+	position: relative;
+	padding: 18px;
+	height: 338px;
+	display: flex;
+	justify-content: initial;
+	align-content: space-between;
+	box-shadow: 2px 2px 5px gray;
+
+}
+.images img{
+	height: 80px;
+	width: 80px;
+	padding-bottom: 5px;
+	position: absolute;
+	border-radius: 10%;
+	
+}
+
+#text {
+	position: relative;
+	float: left;
+	top: 15;
+	left: 540px;
+	margin-left: 10px;
+	padding: 10px;
+	padding-right: 20px;
+}
+h1{
+	font-family: verdana;
+	color: purple;
+	font-size: 200%;
+	font-weight: bold;
+}
+#title{
+	font-family: verdana;
+	color: purple;
+	font-weight: bold;
+	font-size: 150%;
+}
+#subtitle{
+	font-family: verdana;
+	color: purple;
+	font-weight: thin;
+	font-size: 100%;
+}
+#para {
+	text-align: justify-all;
+	font-family: arial;
+	font-size: 100%;
+}
+#READ-MORE{
+	background-color: purple;
+	padding: 10px;
+	color: white;
+	font-family: arial;
+	border: 1px solid purple;
+	box-shadow: 2px 2px 5px purple;
+	position: absolute;
+	width: 140px;
+	float: left;
+	left: 450px;
+	bottom: 3px;
+}
+#heart{
+	position: absolute;
+	width: 140px;
+	float: left;
+	left:10;
+	bottom: 0;
+} 
+
+#text{
+	position: absolute;
+	margin-left: 29px;
+	
+
+}
